@@ -1,0 +1,28 @@
+import React from "react";
+
+export const IcArrowsBottom: React.FC<{ size: string }> = ({ size }) => {
+  return (
+    <svg
+      width={size.toString()}
+      height={size.toString()}
+      viewBox="0 0 40 40"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M20 6.55005V32.7167"
+        stroke="#151515"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="bevel"
+      />
+      <path
+        d="M12.0332 26.1167L18.8832 32.9667C19.1955 33.2771 19.6179 33.4514 20.0582 33.4514C20.4985 33.4514 20.9209 33.2771 21.2332 32.9667L27.8999 26.3"
+        stroke="#151515"
+        strokeWidth="2.5"
+        strokeLinecap="round"
+        strokeLinejoin="bevel"
+      />
+    </svg>
+  );
+};
